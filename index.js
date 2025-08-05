@@ -1,9 +1,9 @@
 /**
- * @author uo1428
- * @support discord.uoaio.xyz | youtobe.com/@uoaio
+ * @author TheSBGames
+ * @support https://discord.gg/QypvjmhVAh
  * @donate patreon.com/uoaio
  * @note Dont take any type credit
- * @copyright discord.com/users/uoaio all rights reserved
+ * @copyright discord.com/users/TheSBGames all rights reserved
  */
 
 import dotenv from "dotenv";
@@ -20,11 +20,11 @@ import "./src/utils/Command.mjs";
 import boxen from "boxen";
 
 let aio = `Welcome to ${"Console".blue.bold} by ${
-  "ALL IN ONE | Development".red
+  "SB MOderation".red
 }`;
 
-let aio_server = `\nSupport:- ${`https://discord.uoaio.xyz`.brightGreen}`;
-let Uo = `\nCoded By ${`@uoaio`.brightCyan.bold}`;
+let aio_server = `\nSupport:- ${`https://discord.gg/QypvjmhVAh`.brightGreen}`;
+let Uo = `\nCoded By ${`@TheSBGames`.brightCyan.bold}`;
 
 console.log(
   boxen(aio + aio_server + Uo, {
