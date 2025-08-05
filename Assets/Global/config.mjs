@@ -76,7 +76,7 @@ export default {
 
   // default config. it will store in db. You can change it once from here. Use bot-config command to update bot config
   Default: {
-    Prefix: ".",
+    Prefix: "&",
 
     //? enable/disable command by categories
     Commands: {
@@ -85,32 +85,32 @@ export default {
     },
 
     Links: {
-      Discord: "https://discord.gg/___",
+      Discord: "https://discord.gg/QypvjmhVAh",
       Patreon: "https://patreon.com",
     },
 
-    Status: "dnd",
+    Status: "online",
     Activity: {
-      name: "BeE Happy :)", // status
-      type: 4,
+      name: "SB", // status
+      type: listening,
     },
 
     Economy: {
       Global: true,
     },
 
-    Owners: ["219813914035224576"], // bot owner ids
+    Owners: ["1186506712040099850"], // bot owner ids
     Theme: "Blue",
   },
 
   // webhooks logs of your bot
   Log: {
     Ready:
-      "https://discord.com/api/webhooks/1198197920042848276/eKefN4rkaHn4ZpyssxYAsh7aKGcmMFTzMHUVS415zZzQQAqkbvzm79tUL_bAltDxkxE2",
+      "https://discord.com/api/webhooks/1402219456637304915/SJNsYYykV5f8diGieOOSAwRbIUkRaEj2jrQ9AlaKfyI1a8so_pnOQIIiNIKOC56xsOcx",
     Command:
-      "https://discord.com/api/webhooks/1198197920042848276/eKefN4rkaHn4ZpyssxYAsh7aKGcmMFTzMHUVS415zZzQQAqkbvzm79tUL_bAltDxkxE2",
+      "https://discord.com/api/webhooks/1402219456637304915/SJNsYYykV5f8diGieOOSAwRbIUkRaEj2jrQ9AlaKfyI1a8so_pnOQIIiNIKOC56xsOcx",
     Error:
-      "https://discord.com/api/webhooks/1198197920042848276/eKefN4rkaHn4ZpyssxYAsh7aKGcmMFTzMHUVS415zZzQQAqkbvzm79tUL_bAltDxkxE2",
+      "https://discord.com/api/webhooks/1402219456637304915/SJNsYYykV5f8diGieOOSAwRbIUkRaEj2jrQ9AlaKfyI1a8so_pnOQIIiNIKOC56xsOcx",
   },
 
   Commands: {
@@ -118,7 +118,7 @@ export default {
   },
 
   Promotion: {
-    Messages: ["Join our [discord](https://discord.gg) "],
+    Messages: ["Join our [discord](https://discord.gg/QypvjmhVAh) "],
   },
 
   Languages: ["en", "de"],
